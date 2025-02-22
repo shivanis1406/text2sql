@@ -1,1 +1,5 @@
 pyodbc
+python-dotenv
+pandas
+openai
+groq
