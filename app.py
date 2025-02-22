@@ -187,7 +187,7 @@ def main():
                 except Exception as e:
                     st.error(f"Error fetching data: {str(e)}")
         else:
-            st.warning("No tables found in the database or connection lost. Please reconnect.")
+            st.warning("No relevant tables found in the database or connection lost. Please reconnect.")
 
 if __name__ == "__main__":
     main()
