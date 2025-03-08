@@ -667,6 +667,7 @@ If you need clarification, explain exactly what information is missing in the cl
                     print(f"DEBUG - Original SQL query is {sql_query}")
                     validated_sql_query = self.validate_sql_query(user_query, sql_query)
                     print(f"DEBUG - validated SQL query is {validated_sql_query}")
+                    st.write(f"SQL query should be {validated_sql_query}")
                     return validated_sql_query
                     
             except QueryError as e:
